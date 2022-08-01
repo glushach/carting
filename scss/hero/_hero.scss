@@ -1,12 +1,7 @@
-.hero {
-  background: url("../assets/img/bg-hero.png") no-repeat;
-}
-
 .header {
   padding: 0 115px 0 120px;
   height: 112px;
 }
-
 
 .nav-desktop {
   &__item {
@@ -23,6 +18,7 @@
 }
 
 .promo {
+  position: relative;
   &__inner {
     margin-top: 535px;
   }
@@ -38,19 +34,6 @@
     margin: 25px auto;
     max-width: 634px;
   }
-}
-
-.group-title {
-  margin: 0 120px;
-  transform: translateY(70px);
-}
-
-.fastest {
-  opacity: .7;
-}
-.fastest:after {
-  content: url("../assets/img/line.png");
-  opacity: 1;
 }
 
 .carts {

@@ -8,4 +8,7 @@
   border: none;
   background: #00d8a4;
   border-radius: 20px 5px;
+  &-transform-left {
+    transform: translateX(-55px);
+  }
 }

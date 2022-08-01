@@ -36,6 +36,8 @@
   border: none;
   background: #00d8a4;
   border-radius: 20px 5px; }
+  .booking-transform-left {
+    transform: translateX(-55px); }
 
 html {
   box-sizing: border-box;
@@ -49,7 +51,7 @@ body {
   font-style: normal;
   font-size: 16px;
   color: #ffffff;
-  background: black; }
+  background: #000000; }
 
 ul {
   margin: 0;
@@ -69,10 +71,9 @@ img {
 .container-fluid {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 0; }
-
-.hero {
-  background: url("../assets/img/bg-hero.png") no-repeat; }
+  padding: 0;
+  background: url("../assets/img/bg-main.png") no-repeat;
+  height: 4081px; }
 
 .header {
   padding: 0 115px 0 120px;
@@ -87,28 +88,19 @@ img {
   .nav-desktop__link-active {
     color: #00ffa3 !important; }
 
-.promo__inner {
-  margin-top: 535px; }
-.promo .title {
-  font-family: 'DotGothic16', sans-serif;
-  font-style: normal;
-  font-size: 58px;
-  font-weight: 400;
-  letter-spacing: 0.14em; }
-.promo .description {
-  margin: 25px auto;
-  max-width: 634px; }
-
-.group-title {
-  margin: 0 120px;
-  transform: translateY(70px); }
-
-.fastest {
-  opacity: .7; }
-
-.fastest:after {
-  content: url("../assets/img/line.png");
-  opacity: 1; }
+.promo {
+  position: relative; }
+  .promo__inner {
+    margin-top: 535px; }
+  .promo .title {
+    font-family: 'DotGothic16', sans-serif;
+    font-style: normal;
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 0.14em; }
+  .promo .description {
+    margin: 25px auto;
+    max-width: 634px; }
 
 .carts {
   font-family: 'DotGothic16', sans-serif;
@@ -116,8 +108,7 @@ img {
   font-size: 58px; }
 
 .carts-car {
-  min-height: 917px;
-  background: url("../assets/img/bg-slider.png") no-repeat; }
+  min-height: 917px; }
 
 .image-slider {
   margin-top: 50px; }
