@@ -1,0 +1,39 @@
+/* dotgothic16-regular - latin */
+@font-face {
+  font-family: 'DotGothic16';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('../assets/fonts/dotgothic16-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../assets/fonts/dotgothic16-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Gilroy Regular */
+@font-face {
+  font-family: 'Gilroy Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('../assets/fonts/Gilroy-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../assets/fonts/Gilroy-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Gilroy Medium */
+@font-face {
+  font-family: 'Gilroy Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+  url('../assets/fonts/Gilroy-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../assets/fonts/Gilroy-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Gilroy Semibold */
+@font-face {
+  font-family: 'Gilroy Semibold';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+  url('../assets/fonts/Gilroy-Semibold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../assets/fonts/Gilroy-Semibold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.container {
+  width: 1920px;
+  margin: 0 auto;
+  background: green; }
+
+/*# sourceMappingURL=style.css.map */
