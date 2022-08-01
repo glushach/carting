@@ -11,14 +11,14 @@
 .nav-desktop {
   &__item {
     margin-left: 48px;
-    &-active {
-      color: #00ffa3;
-    }
   }
   &__link {
     font-family: 'Gilroy Medium', sans-serif;
     font-style: normal;
     font-size: 18px;
+    &-active {
+      color: #00ffa3 !important;
+    }
   }
 }
 
@@ -45,12 +45,12 @@
   transform: translateY(70px);
 }
 
-.banner {
-
-}
-
 .fastest {
-
+  opacity: .7;
+}
+.fastest:after {
+  content: url("../assets/img/line.png");
+  opacity: 1;
 }
 
 .carts {
