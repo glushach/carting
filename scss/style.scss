@@ -1,5 +1,6 @@
 @import "common/fonts";
 @import "common/varialbles";
+@import "button/button";
 
 html {
   box-sizing: border-box;
@@ -14,6 +15,13 @@ body {
   font-family: 'Gilroy Regular', sans-serif;
   font-style: normal;
   font-size: 16px;
+  color: #ffffff;
+  background: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -30,8 +38,10 @@ img {
 }
 
 .container-fluid {
-  width: 1920px;
-  height: 100vh;
+  max-width: 1920px;
   margin: 0 auto;
-  background: green;
+  padding: 0;
 }
+
+@import "hero/hero";
+@import "sections/carts";

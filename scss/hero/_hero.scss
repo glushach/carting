@@ -1,0 +1,62 @@
+.hero {
+  background: url("../assets/img/bg-hero.png") no-repeat;
+}
+
+.header {
+  padding: 0 115px 0 120px;
+  height: 112px;
+}
+
+
+.nav-desktop {
+  &__item {
+    margin-left: 48px;
+    &-active {
+      color: #00ffa3;
+    }
+  }
+  &__link {
+    font-family: 'Gilroy Medium', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+  }
+}
+
+.promo {
+  &__inner {
+    margin-top: 535px;
+  }
+  .title {
+    font-family: 'DotGothic16', sans-serif;
+    font-style: normal;
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+  }
+
+  .description {
+    margin: 25px auto;
+    max-width: 634px;
+  }
+}
+
+.group-title {
+  margin: 0 120px;
+  transform: translateY(70px);
+}
+
+.banner {
+
+}
+
+.fastest {
+
+}
+
+.carts {
+  font-family: 'DotGothic16', sans-serif;
+  font-style: normal;
+  font-size: 58px;
+}
+
+
