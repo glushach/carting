@@ -1,0 +1,22 @@
+.footer {
+  margin: 45px 110px 0 110px;
+  padding-top: 75px;
+  min-height: 412px;
+  &__descr {
+    margin-top: 12px;
+    max-width: 435px;
+  }
+
+  &__copy {
+    margin-top: 20px;
+  }
+}
+
+.copy {
+  color: $TextTheme;
+}
+
+.social-icons__item {
+  margin-left: 30px;
+}
+

@@ -196,4 +196,20 @@ img {
   font-size: 18px;
   margin-bottom: 20px; }
 
+.footer {
+  margin: 45px 110px 0 110px;
+  padding-top: 75px;
+  min-height: 412px; }
+  .footer__descr {
+    margin-top: 12px;
+    max-width: 435px; }
+  .footer__copy {
+    margin-top: 20px; }
+
+.copy {
+  color: #00ffa3; }
+
+.social-icons__item {
+  margin-left: 30px; }
+
 /*# sourceMappingURL=style.css.map */
