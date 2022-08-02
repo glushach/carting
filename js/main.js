@@ -5,9 +5,9 @@ new Swiper('.image-slider', {
     pageUpDown: true,
   },
   // autoHeight: true,
-  spaceBetween: 40,
+  spaceBetween: 10,
   slidesPerGroup: 3,
-  // centeredSlides: true
+  // centeredSlides: true,
   loop: true,
   breakpoints: {
     320: {
