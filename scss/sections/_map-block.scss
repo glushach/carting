@@ -1,0 +1,21 @@
+.contact-block {
+  width: 600px;
+  min-height: 200px;
+
+  .address-title {
+    font-size: 18px;
+    color: $TextTheme;
+  }
+}
+
+.map-block {
+  margin: 130px 100px 0 100px;
+}
+
+.address,
+.phone,
+.email,
+.time-contact {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
