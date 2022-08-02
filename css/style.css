@@ -35,9 +35,13 @@
   color: #ffffff;
   border: none;
   background: #00d8a4;
-  border-radius: 20px 5px; }
+  border-radius: 20px 5px;
+  transition: all 0.6s;
+  cursor: pointer; }
   .booking-transform-left {
     transform: translateX(-55px); }
+  .booking:hover {
+    background: #00ffa3; }
 
 html {
   box-sizing: border-box;
@@ -153,5 +157,26 @@ img {
 
 .statistics__item .info {
   font-size: 17px; }
+
+.features {
+  gap: 70px;
+  margin-top: 420px; }
+
+.features__item {
+  width: 513px;
+  border: 1px solid #00ffa3;
+  border-radius: 10px;
+  padding: 20px; }
+
+.feature__title {
+  font-family: 'Gilroy Semibold', sans-serif;
+  font-weight: 600;
+  font-size: 24px; }
+
+.feature__descr {
+  opacity: .5;
+  font-family: 'Gilroy Regular', sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */

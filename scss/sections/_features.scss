@@ -1,0 +1,24 @@
+.features {
+  gap: 70px;
+  margin-top: 420px;
+}
+
+.features__item {
+  width: 513px;
+  border: 1px solid #00ffa3;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.feature__title {
+  font-family: 'Gilroy Semibold', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.feature__descr {
+  opacity: .5;
+  font-family: 'Gilroy Regular', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
