@@ -79,3 +79,11 @@
     z-index: 11;
   }
 }
+
+@media (max-width: 1240px) {
+  .promo {
+    .title {
+      font-size: 38px;
+    }
+  }
+}

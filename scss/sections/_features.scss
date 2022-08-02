@@ -28,3 +28,13 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 1240px) {
+  .features__item {
+    width: 413px;
+    padding: 5px;
+  }
+  .feature__descr {
+    margin-bottom: 0;
+  }
+}

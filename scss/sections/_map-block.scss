@@ -39,3 +39,20 @@
     width: 600px;
   }
 }
+
+@media (max-width: 1240px) {
+  .contact-block {
+    width: 500px;
+  }
+  .map {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .map-block {
+    margin-top: 200px;
+  }
+}
+
+

@@ -29,3 +29,12 @@
     font-size: 17px;
   }
 }
+
+@media (max-width: 1240px) {
+  .statistics__item {
+    width: 220px;
+  }
+  .statistics {
+    margin-right: 110px;
+  }
+}
