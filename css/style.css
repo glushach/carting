@@ -186,7 +186,8 @@ img {
     gap: 20px; } }
 .contact-block {
   width: 600px;
-  min-height: 200px; }
+  min-height: 200px;
+  padding-top: 100px; }
   .contact-block .address-title {
     font-size: 18px;
     color: #00ffa3; }
