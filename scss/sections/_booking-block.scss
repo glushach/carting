@@ -38,3 +38,12 @@
     margin-right: 110px;
   }
 }
+
+@media (max-width: 1040px) {
+  .booking-block-inner {
+    margin-left: 50px;
+  }
+  .statistics {
+    margin-right: 0;
+  }
+}

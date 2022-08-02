@@ -43,6 +43,9 @@
   .booking:hover {
     background: #00ffa3; }
 
+@media (max-width: 1040px) {
+  .booking-transform-left {
+    transform: translateX(0); } }
 .nav__burger {
   display: none;
   width: 40px;
@@ -255,6 +258,12 @@ img {
 
   .statistics {
     margin-right: 110px; } }
+@media (max-width: 1040px) {
+  .booking-block-inner {
+    margin-left: 50px; }
+
+  .statistics {
+    margin-right: 0; } }
 .features {
   gap: 70px;
   margin-top: 420px; }
@@ -286,6 +295,12 @@ img {
 
   .feature__descr {
     margin-bottom: 0; } }
+@media (max-width: 1040px) {
+  .features {
+    gap: 5px;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center; } }
 .contact-block {
   width: 600px;
   min-height: 200px;
@@ -325,6 +340,15 @@ img {
 @media (max-width: 1240px) {
   .map-block {
     margin-top: 200px; } }
+@media (max-width: 1040px) {
+  .map-block {
+    margin-top: 120.3px; }
+
+  .contact-block {
+    width: 300px; }
+
+  .map {
+    width: 400px; } }
 .footer {
   margin: 45px 110px 0 110px;
   padding-top: 75px;
