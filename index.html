@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Carting</title>
   <link rel="stylesheet" href="css/normalize.css">
@@ -16,7 +16,7 @@
     <div class="hero d-flex flex-column">
       <header class="header d-flex align-items-center justify-content-between">
         <div class="logo"><a href="#!"><img src="assets/img/logo.png" alt="logo"></a></div>
-        <nav class="nav">
+        <nav class="nav header__nav">
           <ul class="nav-desktop d-flex">
             <li class="nav-desktop__item">
               <a class="nav-desktop__link nav-desktop__link-active" href="#!">Цены / прокат</a>
@@ -43,7 +43,16 @@
               <a class="nav-desktop__link" href="#!">Продажа картингов</a>
             </li>
           </ul>
+          <div class="header__nav-close">
+            <span class="header__nav-close-line"></span>
+            <span class="header__nav-close-line"></span>
+          </div>
         </nav>
+        <div class="nav__burger burger">
+          <span class="burger__line burger__line_first"></span>
+          <span class="burger__line burger__line_second"></span>
+          <span class="burger__line burger__line_third"></span>
+        </div>
       </header>
       <div class="promo">
         <div class="promo__inner text-center">
@@ -193,7 +202,7 @@
     <footer class="footer">
       <div class="footer__header d-flex justify-content-between align-items-center">
         <div class="logo"><a href="#!"><img src="assets/img/logo.png" alt="logo"></a></div>
-        <nav class="nav">
+        <nav class="nav footer__nav">
           <ul class="nav-desktop d-flex">
             <li class="nav-desktop__item">
               <a class="nav-desktop__link nav-desktop__link-active" href="#!">Цены / прокат</a>
@@ -221,6 +230,11 @@
             </li>
           </ul>
         </nav>
+        <div class="nav__burger burger">
+          <span class="burger__line burger__line_first"></span>
+          <span class="burger__line burger__line_second"></span>
+          <span class="burger__line burger__line_third"></span>
+        </div>
       </div>
       <div class="footer__descr">
         It is a long established fact that a reader will be distracted
