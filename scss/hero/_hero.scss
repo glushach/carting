@@ -1,6 +1,5 @@
 .header {
   padding: 0 115px 0 120px;
-  height: 112px;
 }
 
 .nav-desktop {
@@ -42,4 +41,8 @@
   font-size: 58px;
 }
 
-
+@media (max-width: 1720px) {
+  .header {
+    padding: 0 10px 0 10px;
+  }
+}

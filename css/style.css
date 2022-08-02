@@ -80,8 +80,7 @@ img {
   height: 4081px; }
 
 .header {
-  padding: 0 115px 0 120px;
-  height: 112px; }
+  padding: 0 115px 0 120px; }
 
 .nav-desktop__item {
   margin-left: 48px; }
@@ -111,6 +110,9 @@ img {
   font-style: normal;
   font-size: 58px; }
 
+@media (max-width: 1720px) {
+  .header {
+    padding: 0 10px 0 10px; } }
 .carts-car {
   min-height: 840px; }
 
@@ -179,6 +181,9 @@ img {
   font-weight: 400;
   font-size: 14px; }
 
+@media (max-width: 1720px) {
+  .features {
+    gap: 20px; } }
 .contact-block {
   width: 600px;
   min-height: 200px; }
@@ -196,6 +201,9 @@ img {
   font-size: 18px;
   margin-bottom: 20px; }
 
+@media (max-width: 1720px) {
+  .map-block {
+    margin: 170px 10px 0 10px; } }
 .footer {
   margin: 45px 110px 0 110px;
   padding-top: 75px;
@@ -211,5 +219,9 @@ img {
 
 .social-icons__item {
   margin-left: 30px; }
+
+@media (max-width: 1720px) {
+  .footer {
+    margin: 45px 10px 0 10px; } }
 
 /*# sourceMappingURL=style.css.map */

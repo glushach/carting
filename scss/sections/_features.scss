@@ -22,3 +22,9 @@
   font-weight: 400;
   font-size: 14px;
 }
+
+@media (max-width: 1720px) {
+  .features {
+    gap: 20px;
+  }
+}
