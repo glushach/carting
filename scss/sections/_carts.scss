@@ -29,3 +29,16 @@
 .image-slider__image {
   text-align: center;
 }
+
+@media (max-width: 1596px) {
+  .slide__title {
+    font-size: 26px;
+  }
+  .slide__subtitle {
+    font-size: 18px;
+  }
+
+  .slide__descr {
+    font-size: 13px;
+  }
+}
