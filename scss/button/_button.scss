@@ -4,9 +4,9 @@
   font-family: 'Gilroy Medium', sans-serif;
   font-style: normal;
   font-size: 22px;
-  color: #ffffff;
+  color: $MainTextTheme;
   border: none;
-  background: #00d8a4;
+  background: $BtnTheme;
   border-radius: 20px 5px;
   &-transform-left {
     transform: translateX(-55px);

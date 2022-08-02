@@ -1,0 +1,31 @@
+
+.booking-block {
+  max-height: 412px;
+  &-inner {
+    margin-left: 130px;
+  }
+}
+
+.statistics__item {
+  width: 265px;
+}
+
+.distant,
+.time {
+  color: $TextTheme;
+  font-size: 40px;
+}
+
+.booking-block-promo {
+  max-width: 520px;
+}
+
+.statistics {
+  margin-right: 210px;
+}
+
+.statistics__item {
+  .info {
+    font-size: 17px;
+  }
+}

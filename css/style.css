@@ -108,12 +108,50 @@ img {
   font-size: 58px; }
 
 .carts-car {
-  min-height: 917px; }
+  min-height: 840px; }
 
 .image-slider {
-  margin-top: 270px; }
+  margin-top: 320px; }
+
+.slider__info {
+  margin-top: 20px; }
+
+.slide__title {
+  font-family: 'DotGothic16', sans-serif;
+  font-weight: 400;
+  font-size: 36px; }
+
+.slide__subtitle {
+  font-family: 'Gilroy Semibold', sans-serif;
+  font-weight: 600;
+  font-size: 24px; }
+
+.slide__descr {
+  font-size: 17px; }
 
 .image-slider__image {
   text-align: center; }
+
+.booking-block {
+  max-height: 412px; }
+  .booking-block-inner {
+    margin-left: 130px; }
+
+.statistics__item {
+  width: 265px; }
+
+.distant,
+.time {
+  color: #00ffa3;
+  font-size: 40px; }
+
+.booking-block-promo {
+  max-width: 520px; }
+
+.statistics {
+  margin-right: 210px; }
+
+.statistics__item .info {
+  font-size: 17px; }
 
 /*# sourceMappingURL=style.css.map */
