@@ -47,3 +47,21 @@
     align-items: center;
   }
 }
+
+@media (max-width: 600px) {
+  .features {
+    margin-top: 240px;
+    &__item {
+      width: 300px;
+      img {
+        width: 100px;
+      }
+    }
+  }
+  .feature__title {
+    font-size: 16px;
+  }
+  .feature__descr {
+    font-size: 12px;
+  }
+}

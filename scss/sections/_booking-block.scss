@@ -61,3 +61,13 @@
     font-size: 30px;
   }
 }
+
+@media (max-width: 600px) {
+  .booking-block p {
+    margin: 0;
+    font-size: 15px;
+  }
+  .statistics {
+    flex-direction: column;
+  }
+}

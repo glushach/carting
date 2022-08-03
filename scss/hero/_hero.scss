@@ -101,7 +101,27 @@
       font-size: 28px;
     }
     .description {
+      max-width: 534px;
       font-size: 14px;
     }
   }
 }
+
+@media (max-width: 600px) {
+  .nav-desktop__link {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .nav-desktop__item {
+    margin-bottom: 10px;
+  }
+
+  .promo .title {
+    font-size: 18px;
+  }
+
+  .promo .description {
+    max-width: 434px;
+  }
+}
+

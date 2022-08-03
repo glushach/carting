@@ -51,3 +51,13 @@
   }
 }
 
+@media (max-width: 600px) {
+  .footer__descr,
+  .copy {
+    font-size: 14px;
+  }
+  .social-icons__item {
+    margin-left: 5px;
+  }
+}
+
