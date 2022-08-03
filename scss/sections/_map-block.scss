@@ -70,7 +70,7 @@
 @media (max-width: 810px) {
   .map-block {
     flex-direction: column-reverse;
-    margin-top: 95px;
+    margin: 95px 5px 0 5px;
   }
   .address,
   .phone,
@@ -80,7 +80,7 @@
     margin-bottom: 0;
   }
   .map {
-    width: 290px;
+    width: 270px;
   }
 }
 

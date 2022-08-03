@@ -44,7 +44,7 @@ img {
   margin: 0 auto;
   padding: 0;
   background: url("../assets/img/bg-main.png") no-repeat;
-  height: 4081px;
+  min-height: 4081px;
 }
 
 @import "hero/hero";
