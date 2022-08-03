@@ -67,5 +67,22 @@
   }
 }
 
+@media (max-width: 810px) {
+  .map-block {
+    flex-direction: column-reverse;
+    margin-top: 95px;
+  }
+  .address,
+  .phone,
+  .email,
+  .time-contact {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .map {
+    width: 290px;
+  }
+}
+
 
 

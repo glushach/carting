@@ -87,3 +87,21 @@
     }
   }
 }
+
+@media (max-width: 810px) {
+  .header {
+    padding-top: 15px;
+  }
+  .logo {
+    width: 150px;
+  }
+
+  .promo {
+    .title {
+      font-size: 28px;
+    }
+    .description {
+      font-size: 14px;
+    }
+  }
+}

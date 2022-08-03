@@ -47,3 +47,17 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 810px) {
+  .booking-block-inner {
+    margin-left: 5px;
+    padding-top: 15px;
+  }
+  .info-block {
+    flex-direction: column;
+  }
+  .distant,
+  .time {
+    font-size: 30px;
+  }
+}

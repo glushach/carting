@@ -46,6 +46,10 @@
 @media (max-width: 1040px) {
   .booking-transform-left {
     transform: translateX(0); } }
+@media (max-width: 810px) {
+  .booking {
+    width: 186px;
+    height: 49px; } }
 .nav__burger {
   display: none;
   width: 40px;
@@ -196,6 +200,17 @@ img {
 @media (max-width: 1240px) {
   .promo .title {
     font-size: 38px; } }
+@media (max-width: 810px) {
+  .header {
+    padding-top: 15px; }
+
+  .logo {
+    width: 150px; }
+
+  .promo .title {
+    font-size: 28px; }
+  .promo .description {
+    font-size: 14px; } }
 .carts-car {
   min-height: 840px; }
 
@@ -230,6 +245,9 @@ img {
 
   .slide__descr {
     font-size: 13px; } }
+@media (max-width: 810px) {
+  .image-slider {
+    margin-top: 330px; } }
 .booking-block {
   max-height: 412px; }
   .booking-block-inner {
@@ -264,6 +282,17 @@ img {
 
   .statistics {
     margin-right: 0; } }
+@media (max-width: 810px) {
+  .booking-block-inner {
+    margin-left: 5px;
+    padding-top: 15px; }
+
+  .info-block {
+    flex-direction: column; }
+
+  .distant,
+  .time {
+    font-size: 30px; } }
 .features {
   gap: 70px;
   margin-top: 420px; }
@@ -349,6 +378,20 @@ img {
 
   .map {
     width: 400px; } }
+@media (max-width: 810px) {
+  .map-block {
+    flex-direction: column-reverse;
+    margin-top: 95px; }
+
+  .address,
+  .phone,
+  .email,
+  .time-contact {
+    font-size: 16px;
+    margin-bottom: 0; }
+
+  .map {
+    width: 290px; } }
 .footer {
   margin: 45px 110px 0 110px;
   padding-top: 75px;
@@ -374,5 +417,15 @@ img {
 @media (max-width: 1450px) {
   .footer__nav {
     display: none; } }
+@media (max-width: 810px) {
+  .footer {
+    padding-top: 100px;
+    margin-top: 15px; }
+
+  .footer__copy {
+    flex-direction: column; }
+
+  .social-icons {
+    margin-top: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
