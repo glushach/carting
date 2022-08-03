@@ -275,9 +275,6 @@ img {
   .slider__info {
     max-width: 320px;
     margin: 0 auto; } }
-@media (max-width: 389px) {
-  .image-slider {
-    margin-top: 320px; } }
 .booking-block {
   max-height: 412px; }
   .booking-block-inner {
@@ -380,9 +377,9 @@ img {
 
   .feature__descr {
     font-size: 12px; } }
-@media (max-width: 389px) {
+@media (max-width: 369px) {
   .features {
-    margin-top: 200px; } }
+    margin-top: 196px; } }
 .contact-block {
   width: 600px;
   min-height: 200px;
@@ -490,5 +487,8 @@ img {
 @media (max-width: 600px) {
   .copy {
     font-size: 11px; } }
+@media (max-width: 369px) {
+  .features {
+    margin-top: 195px; } }
 
 /*# sourceMappingURL=style.css.map */
